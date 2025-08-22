@@ -1,4 +1,11 @@
 title: All About Nancy
-remote_theme: jekyll/minima
+description: Personal site
+theme: minima
+
+# Show “About” in the header navigation
 header_pages:
   - about.md
+
+# Optional niceties
+show_excerpts: false
+
