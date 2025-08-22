@@ -3,6 +3,8 @@ layout: default
 title: About
 ---
 
+{% include custom-nav.html %}
+
 # About Me
 
 Hi, I’m Nancy 👋
