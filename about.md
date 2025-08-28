@@ -1,7 +1,11 @@
 ---
 layout: default
 title: About
+permalink: /about/
 ---
+
+{% include profile-photo.html width="220" alt="Photo of Nancy Walker" caption="Hi! I’m Nancy — mom, scientist, and data enthusiast." %}
+
 
 **About Me**
 
