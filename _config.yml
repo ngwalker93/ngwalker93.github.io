@@ -5,7 +5,12 @@ theme: minima
 # Show “About” in the header navigation
 header_pages:
   - about.md
+  - projects.md
 
 # Optional niceties
 show_excerpts: false
 
+
+# Minima social (footer icons)
+github_username: ngwalker93
+linkedin_username: nancy-griffith-walker
