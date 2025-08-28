@@ -19,3 +19,8 @@ My Interest:
 - Machine Learning 🤖
 - Biology/ Life Science 🧫🧬
 - Parenting 🏠👩‍👦
+
+Links: 
+📁 [Projects](/projects/) 
+🐙 [GitHub](https://github.com/ngwalker93) 
+💼 [LinkedIn](https://www.linkedin.com/in/nancy-griffith-walker/)
