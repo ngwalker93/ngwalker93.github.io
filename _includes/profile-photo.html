@@ -1,0 +1,13 @@
+<figure class="profile-photo" style="text-align:center;">
+  <a href="{{ include.src | default: '/assets/img/nancy-walker.jpg' | relative_url }}">
+    <img
+      src="{{ include.src | default: '/assets/img/nancy-walker.jpg' | relative_url }}"
+      alt="{{ include.alt | default: 'Photo of Nancy Walker' }}"
+      width="{{ include.width | default: 220 }}"
+      style="border-radius:50%; display:block; margin:0 auto 0.5rem;"
+    />
+  </a>
+  {% if include.caption %}
+  <figcaption style="font-size:0.9rem; color:#666;">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>
