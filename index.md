@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
 {% include profile-photo.html width="160" alt="Nancy Walker" %}
+
 # Hi, I’m Nancy 👋
 Welcome to my site!  
 [About me →](/about/)
