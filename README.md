@@ -9,7 +9,7 @@ The purpose of this site is to display my professional resume as well as some of
   - **`headshot.png`**
   - **`science-theme.css`**
   - **`styles.css`**
-  -**`wallpaper.png`**
+  - **`wallpaper.png`**
     
 -  **`journal`**
    Folder with content for website tabs 
