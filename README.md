@@ -11,11 +11,5 @@ The purpose of this site is to display my professional resume as well as some of
   - **`styles.css`**
   - **`wallpaper.png`**
     
--  **`journal`**
-   Folder with content for website tabs
-    - **`about.html`**
-    - **`projects.html`**
-    - **`resume.html`**
-    
 -  **`index.html`**
    Website Homepage
