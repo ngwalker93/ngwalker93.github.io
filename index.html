@@ -9,15 +9,70 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="journal/about"><i class="fa fa-user"></i>About</a>
-        <a href="journal/projects"><i class="fab fa-github"></i>Projects</a>
-        <a href="journal/resume"><i class="fa fa-file-alt"></i>Resume</a>
+    <nav class="navbar minimal-navbar">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+            <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#about">About</a></li>
+                <li><a class="menu__item" href="#github">GitHub</a></li>
+                <li><a class="menu__item" href="https://www.linkedin.com/in/nancy-griffith-walker/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-content">
+            <div class="nav-links" role="navigation" aria-label="Main">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#github">GitHub</a>
+                <a class="nav-link" href="https://www.linkedin.com/in/nancy-griffith-walker/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
     </nav>
 
-    <main>
-        <h2 class="index-title">Hello, Friends!</h2>
-        <h2 class="index-title">Welcome to My Wesite</h2>
+    <main class="scroll-page">
+        <section id="home" class="scroll-section hero-section">
+            <div class="hero-content">
+                <h1 class="website-title">Hello, Friends!</h1>
+                <a class="hero-scroll-cue" href="#about" aria-label="Scroll to About"><i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+            </div>
+        </section>
+
+        <section id="about" class="scroll-section">
+            <div class="centered-card section-card">
+                <img src="assets/headshot.png" alt="Headshot Photo" class="profile-photo mb-3">
+                <h2 class="website-title">About Me</h2>
+                <p class="website-description">I'm a data scientist with a multidisciplinary background in biology, public health, and laboratory research. I earned my M.S. in Applied Data Science from the University of San Diego, where I developed skills in machine learning, statistical modeling, data analysis, and data storytelling. Beyond my professional journey, I'm also a proud mom of energetic twin boys.</p>
+                <p class="website-description">My academic journey began in the life sciences. I earned my B.S. in Biology from the University of California, Merced, followed by a Master of Public Health from West Coast University. Before transitioning into data science, I spent five years working as a Research and Development Scientist, with experience in assays, flow cytometry, and single-cell sorting for antibody development.</p>
+                <p class="website-description">Today, I'm applying my scientific background and data science skills to explore complex datasets, build analytical solutions, and answer meaningful real-world questions. I'm especially interested in continuing to strengthen my skills in machine learning, statistical analysis, and data-driven problem solving while gaining experience across a variety of domains.</p>
+                <p class="website-description">Whether I'm exploring cells in the lab 🔬🧫 or patterns in a dataset 💻📊, I'm driven by the same curiosity: asking meaningful questions, uncovering patterns, and using evidence to better understand complex problems.</p>
+            </div>
+        </section>
+
+        <section id="github" class="scroll-section">
+            <div class="centered-card section-card projects-section-card">
+                <h2 class="website-title">GitHub</h2>
+                <details class="work-entry">
+                    <summary><h3><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/xuany823/ADS599_Capstone_Hypertension_Risk_Atlas" target="_blank" rel="noopener noreferrer" class="project-link">Hypertension Risk Atlas</a></h3></summary>
+                    <div class="website-description">Capstone project analyzing hypertension risk factors and visualizing them through an interactive atlas.</div>
+                </details>
+                <details class="work-entry">
+                    <summary><h3><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/ngwalker93/ADS508Group3" target="_blank" rel="noopener noreferrer" class="project-link">NutriAccess Food Environment Analysis</a></h3></summary>
+                    <div class="website-description">Analysis of food environment accessibility and its impact on nutrition.</div>
+                </details>
+                <details class="work-entry">
+                    <summary><h3><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/ngwalker93/ADS-503-Final-Team-Project" target="_blank" rel="noopener noreferrer" class="project-link">Influenza Forecasting Analysis</a></h3></summary>
+                    <div class="website-description">Forecasting influenza trends using statistical and machine learning models.</div>
+                </details>
+            </div>
+        </section>
     </main>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+        <script src="assets/scripts.js"></script>
+
 </body>
 </html>
