@@ -1,3 +1,17 @@
+// isMobileDevice is a function that detects if the user is on a mobile device
+function isMobileDevice() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+}
+
+// initializeMobile is a function that sets up mobile-specific enhancements
+function initializeMobile() {
+    if (isMobileDevice()) {
+        addMobileTouchEnhancements();
+    } else {
+        return;
+    }
+}
+
 // addMobileTouchEnhancements is a function that improves mobile touch experience
 function addMobileTouchEnhancements() {    
     const navLinks = document.querySelectorAll('.navbar a');
@@ -113,6 +127,7 @@ function initializeBackToTop() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+    initializeMobile();
     initializeNavigation();
     initializeSmoothScrolling();
     initializeBackToTop();

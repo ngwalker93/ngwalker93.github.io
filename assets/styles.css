@@ -175,25 +175,6 @@ main {
     }
 }
 
-.stars {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    pointer-events: none;
-    z-index: 0;
-}
-
-.star {
-    position: absolute;
-    background: white;
-    border-radius: 50%;
-    opacity: 0.8;
-    box-shadow: 0 0 6px 2px #fff8;
-    animation: twinkle 2s infinite ease-in-out;
-}
-
 @keyframes twinkle {
     0%, 100% { opacity: 0.8; }
     50% { opacity: 0.3; }
